@@ -1,0 +1,732 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>库存流水统计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/库存流水统计_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/库存流水统计_1/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11901" class="ax_default paragraph" selectiongroup="breadcrumbs">
+        <div id="u11901_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11902" class="text" style="visibility: visible;">
+          <p><span>统计分析/&nbsp;&nbsp; 库存流水统计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u11903" class="ax_default">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u11904" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u11905" class="ax_default heading_1">
+            <div id="u11905_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u11906" class="text" style="visibility: visible;">
+              <p><span>仓库名称：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (下拉列表框) -->
+          <div id="u11907" class="ax_default droplist">
+            <select id="u11907_input">
+              <option selected value="请选择">请选择</option>
+              <option value="安州仓库一号">安州仓库一号</option>
+              <option value="三台仓库一号">三台仓库一号</option>
+              <option value="梓潼仓库一号">梓潼仓库一号</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u11908" class="ax_default">
+
+          <!-- Unnamed (下拉列表框) -->
+          <div id="u11909" class="ax_default droplist">
+            <select id="u11909_input">
+              <option selected value="请选择">请选择</option>
+              <option value="安州区">安州区</option>
+              <option value="三台县">三台县</option>
+              <option value="盐亭县">盐亭县</option>
+            </select>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u11910" class="ax_default heading_1">
+            <div id="u11910_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u11911" class="text" style="visibility: visible;">
+              <p><span>所属区域：</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u11912" class="ax_default">
+
+          <!-- Unnamed (下拉列表框) -->
+          <div id="u11913" class="ax_default droplist">
+            <select id="u11913_input">
+              <option selected value="请选择">请选择</option>
+              <option value="安全帽">安全帽</option>
+              <option value="灭火器">灭火器</option>
+              <option value="消防锹">消防锹</option>
+            </select>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u11914" class="ax_default heading_1">
+            <div id="u11914_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u11915" class="text" style="visibility: visible;">
+              <p><span>分类：</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u11916" class="ax_default">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u11917" class="ax_default">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u11918" class="ax_default heading_1">
+            <div id="u11918_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u11919" class="text" style="visibility: visible;">
+              <p><span>日期：</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11920" class="ax_default shape1">
+          <div id="u11920_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11921" class="text" style="visibility: visible;">
+            <p style="font-size:14px;"><span>2019-10-02&nbsp; &nbsp; &nbsp; </span><span style="font-size:11px;"> ～&nbsp; &nbsp; &nbsp;&nbsp; </span><span>2020-05-10 </span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u11922" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11923" class="ax_default label">
+          <div id="u11923_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11924" class="text" style="visibility: visible;">
+            <p><span>入库物资</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11925" class="ax_default label">
+          <div id="u11925_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11926" class="text" style="visibility: visible;">
+            <p><span>调出物资</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11927" class="ax_default label">
+          <div id="u11927_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11928" class="text" style="visibility: visible;">
+            <p><span>9</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u11929" class="ax_default line">
+          <img id="u11929_img" class="img " src="images/库存流水统计_1/u11929.png"/>
+          <!-- Unnamed () -->
+          <div id="u11930" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u11931" class="ax_default line">
+          <img id="u11931_img" class="img " src="images/库存流水统计_1/u11929.png"/>
+          <!-- Unnamed () -->
+          <div id="u11932" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11933" class="ax_default line">
+          <img id="u11933_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11934" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11935" class="ax_default line">
+          <img id="u11935_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11936" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11937" class="ax_default line">
+          <img id="u11937_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11938" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11939" class="ax_default line">
+          <img id="u11939_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11940" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11941" class="ax_default label">
+          <div id="u11941_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11942" class="text" style="visibility: visible;">
+            <p><span>出库物资</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11943" class="ax_default label">
+          <div id="u11943_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11944" class="text" style="visibility: visible;">
+            <p><span>4210</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11945" class="ax_default label">
+          <div id="u11945_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11946" class="text" style="visibility: visible;">
+            <p><span>调入物资</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11947" class="ax_default label">
+          <div id="u11947_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11948" class="text" style="visibility: visible;">
+            <p><span>3650</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11949" class="ax_default label">
+          <div id="u11949_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11950" class="text" style="visibility: visible;">
+            <p><span>560</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11951" class="ax_default label">
+          <div id="u11951_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11952" class="text" style="visibility: visible;">
+            <p><span>报损物资</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11953" class="ax_default label">
+          <div id="u11953_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11954" class="text" style="visibility: visible;">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u11955" class="ax_default _图片">
+          <img id="u11955_img" class="img " src="images/库存流水统计_1/u11955.png"/>
+          <!-- Unnamed () -->
+          <div id="u11956" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u11957" class="ax_default _图片">
+          <img id="u11957_img" class="img " src="images/库存流水统计_1/u11957.png"/>
+          <!-- Unnamed () -->
+          <div id="u11958" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u11959" class="ax_default _图片">
+          <img id="u11959_img" class="img " src="images/库存流水统计_1/u11959.png"/>
+          <!-- Unnamed () -->
+          <div id="u11960" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u11961" class="ax_default _图片">
+          <img id="u11961_img" class="img " src="images/库存流水统计_1/u11961.png"/>
+          <!-- Unnamed () -->
+          <div id="u11962" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u11963" class="ax_default _图片">
+          <img id="u11963_img" class="img " src="images/库存流水统计_1/u11963.png"/>
+          <!-- Unnamed () -->
+          <div id="u11964" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11965" class="ax_default line">
+          <img id="u11965_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11966" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u11967" class="ax_default line">
+          <img id="u11967_img" class="img " src="images/物资统计/u11068.png"/>
+          <!-- Unnamed () -->
+          <div id="u11968" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u11969" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u11970" class="ax_default _图片">
+          <img id="u11970_img" class="img " src="images/gis首页/u273.png"/>
+          <!-- Unnamed () -->
+          <div id="u11971" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11972" class="ax_default label">
+          <div id="u11972_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11973" class="text" style="visibility: visible;">
+            <p><span>入库物资统计</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (一级菜单) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11975" class="ax_default box_1">
+        <div id="u11975_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11976" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11977" class="ax_default _一级标题">
+        <div id="u11977_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11978" class="text" style="visibility: visible;">
+          <p><span>物资管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11979" class="ax_default _图片1">
+        <img id="u11979_img" class="img " src="images/gis首页/u288.png"/>
+        <!-- Unnamed () -->
+        <div id="u11980" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11981" class="ax_default _二级标题">
+        <div id="u11981_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11982" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 统计分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11983" class="ax_default _二级标题">
+        <div id="u11983_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11984" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11985" class="ax_default _二级标题">
+        <div id="u11985_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11986" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 库存盘点</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11987" class="ax_default _二级标题">
+        <div id="u11987_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11988" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 库存物资管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11989" class="ax_default _二级标题">
+        <div id="u11989_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11990" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 设施设备</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11991" class="ax_default _二级标题">
+        <div id="u11991_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11992" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; 基础信息管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u11993" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u11994" class="ax_default image1">
+          <img id="u11994_img" class="img " src="images/gis首页/u303.jpg"/>
+          <!-- Unnamed () -->
+          <div id="u11995" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11996" class="ax_default label1">
+          <div id="u11996_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u11997" class="text" style="visibility: visible;">
+            <p><span>hongyu</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 个人下拉 (组 合) -->
+      <div id="u11998" class="ax_default ax_default_hidden" data-label="个人下拉" style="display: none; visibility: hidden">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u11999" class="ax_default box_21">
+          <div id="u11999_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12000" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12001" class="ax_default label">
+          <div id="u12001_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12002" class="text" style="visibility: visible;">
+            <p><span>修改密码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12003" class="ax_default label">
+          <div id="u12003_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12004" class="text" style="visibility: visible;">
+            <p><span>退出</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12005" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u12006" class="ax_default _图片">
+          <img id="u12006_img" class="img " src="images/gis首页/u273.png"/>
+          <!-- Unnamed () -->
+          <div id="u12007" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12008" class="ax_default label">
+          <div id="u12008_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12009" class="text" style="visibility: visible;">
+            <p><span>出库物资统计</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12010" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u12011" class="ax_default _图片">
+          <img id="u12011_img" class="img " src="images/gis首页/u273.png"/>
+          <!-- Unnamed () -->
+          <div id="u12012" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12013" class="ax_default label">
+          <div id="u12013_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12014" class="text" style="visibility: visible;">
+            <p><span>调出物资统计</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12015" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u12016" class="ax_default _图片">
+          <img id="u12016_img" class="img " src="images/gis首页/u273.png"/>
+          <!-- Unnamed () -->
+          <div id="u12017" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12018" class="ax_default label">
+          <div id="u12018_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12019" class="text" style="visibility: visible;">
+            <p><span>调入物资统计</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12020" class="ax_default">
+
+        <!-- Unnamed (图片) -->
+        <div id="u12021" class="ax_default _图片">
+          <img id="u12021_img" class="img " src="images/gis首页/u273.png"/>
+          <!-- Unnamed () -->
+          <div id="u12022" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12023" class="ax_default label">
+          <div id="u12023_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12024" class="text" style="visibility: visible;">
+            <p><span>报损物资统计</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u12025" class="ax_default label">
+        <div id="u12025_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u12026" class="text" style="visibility: visible;">
+          <p><span>物资分类：12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u12027" class="ax_default label">
+        <div id="u12027_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u12028" class="text" style="visibility: visible;">
+          <p><span>物资数量：10022</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (统计分析 (库存流水统计)) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u12030" class="ax_default box_1">
+        <div id="u12030_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u12031" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12032" class="ax_default">
+
+        <!-- 库存盘点二级菜单 (组 合) -->
+        <div id="u12033" class="ax_default" data-label="库存盘点二级菜单">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u12034" class="ax_default _二级标题">
+            <div id="u12034_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u12035" class="text" style="visibility: visible;">
+              <p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 物资统计</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12036" class="ax_default _二级标题">
+          <div id="u12036_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12037" class="text" style="visibility: visible;">
+            <p><span>&nbsp;&nbsp; &nbsp; 统计分析</span></p>
+          </div>
+        </div>
+
+        <!-- 库存盘点二级菜单 (组 合) -->
+        <div id="u12038" class="ax_default" data-label="库存盘点二级菜单">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u12039" class="ax_default _二级标题">
+            <div id="u12039_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u12040" class="text" style="visibility: visible;">
+              <p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 库存预警统计</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 库存盘点二级菜单 (组 合) -->
+        <div id="u12041" class="ax_default" data-label="库存盘点二级菜单">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u12042" class="ax_default _二级标题">
+            <div id="u12042_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u12043" class="text" style="visibility: visible;">
+              <p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 库存流水统计</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u12044" class="ax_default">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12045" class="ax_default shape">
+          <div id="u12045_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12046" class="text" style="visibility: visible;">
+            <p><span>搜 索</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12047" class="ax_default shape">
+          <div id="u12047_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12048" class="text" style="visibility: visible;">
+            <p><span>重 置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u12049" class="ax_default shape">
+          <div id="u12049_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u12050" class="text" style="visibility: visible;">
+            <p><span>导 出</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
